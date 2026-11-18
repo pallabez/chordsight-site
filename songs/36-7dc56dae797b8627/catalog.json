@@ -1,0 +1,32 @@
+{
+  "rig" : "36-7dc56dae797b8627",
+  "songs" : [
+    {
+      "bars" : 21,
+      "bpm" : 60,
+      "bytes" : 92947,
+      "capo" : 0,
+      "file" : "canon-in-d.cshand",
+      "free" : false,
+      "id" : "canon-in-d",
+      "revision" : 1,
+      "seconds" : 86.23333333333333,
+      "sha256" : "5ee0ed25321859f029859ff0b3caffd3cf09e6edc71463c8919fc62d78fe37e6",
+      "title" : "Canon in D"
+    },
+    {
+      "bars" : 33,
+      "bpm" : 120,
+      "bytes" : 69659,
+      "capo" : 0,
+      "file" : "fur-elise-a-section.cshand",
+      "free" : true,
+      "id" : "fur-elise-a-section",
+      "revision" : 1,
+      "seconds" : 68.23333333333333,
+      "sha256" : "ee1e7666fa0da51b0c94ec9e16e1a16431ec571054f03c67d05d9cf6459b33b0",
+      "title" : "Für Elise (A section)"
+    }
+  ],
+  "version" : 1
+}
