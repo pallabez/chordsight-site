@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get ChordSight</title>
+<meta property="og:title" content="Get ChordSight">
+<meta property="og:description" content="Learn guitar chords by watching realistic 3D hands play them.">
+<meta property="og:image" content="https://pallabez.github.io/chordsight-site/img/icon.png">
+<link rel="icon" href="../img/icon.png">
+<link rel="stylesheet" href="../style.css">
+<script>
+(function () {
+  var ua = navigator.userAgent || "";
+  var ios = /iPhone|iPad|iPod/.test(ua) ||
+    (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1); // iPadOS asks for the desktop site
+  var target = ios ? "https://apps.apple.com/app/id6831934798?ct=yt"
+    : /Android/i.test(ua) ? "../android.html"
+    : "../index.html";
+  location.replace(target);
+})();
+</script>
+</head>
+<body>
+<main>
+  <h1>Get ChordSight</h1>
+  <p><a href="https://apps.apple.com/app/id6831934798?ct=yt">iPhone and iPad: App Store</a></p>
+  <p><a href="../android.html">Android: coming soon</a></p>
+</main>
+</body>
+</html>
